@@ -1,0 +1,155 @@
+@import './_variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Work+Sans:wght@400;600&display=swap');
+
+/* GENERAL STYLE */
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+h1, h2, h3,
+h4, h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+input, select {
+  outline: none;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  background-color: var(--main-grey);
+  text-decoration: none;
+  color: #000;
+  transition: all .5s;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: rgb(42, 36, 36);
+    color: #fff;
+    cursor: pointer;
+  }
+  & > * {
+    vertical-align: middle;
+  }
+  svg, img {
+    width: 20px;
+  }
+  svg {
+    height: 20px;
+  }
+  img {
+    height: auto;
+  }
+
+  &--rounded {
+    padding: 25px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  &--inverted-hover:hover {
+    background-color: #fff;
+    color: var(--secondary-grey);
+    border: 1px solid #000;
+  }
+  &--blue {
+    background-color: #b7bddf;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #284593;
+      color: #fff;
+    }
+  }
+}
+
+/* TITLES */
+.main__title {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* LAYOUT */
+.container{
+  &--centrated {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > * {
+      width: 100%;
+    }
+  }
+}
+.block-wrapper {
+  padding: 15px;
+}
+
+.hero {
+  &__container {
+    position: relative;
+    min-height: 50vh;
+    text-align: center;
+  }
+  &__flag {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 7px 38px 6px rgba(132 133 149 / 62%);
+
+    &--lt {
+      left: 35%;
+      top: 10%;
+    }
+    &--rm {
+        right: 35%;
+        top: 45%;       
+    }
+    &--lb {
+        left: 25%;
+        bottom: 10%;
+    }
+  }
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+  &__links {
+    padding-top: 25px;
+    text-align: center;
+
+    a, button {
+      &:not(:first-child) {
+        margin-left: 15px;
+      }
+    }
+    
+  }
+}
+.error-message {
+  text-align: center;
+  font-size: 120%;
+  color: red;
+}

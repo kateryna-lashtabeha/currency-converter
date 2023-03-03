@@ -1,0 +1,30 @@
+.convert {
+  &__row {
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px 3px rgb(132 133 149 / 17%);
+  }
+  &__label {
+    font-size: 12px;
+    color: var(--secondary-grey);
+    margin: 0 0 5px 0;
+  }
+  &__input {
+    position: relative;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  &__select {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+}

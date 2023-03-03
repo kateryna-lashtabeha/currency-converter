@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 270 180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(0 -872.36)">
+  <rect transform="translate(0 872.36)" x=".43478" y="-.43478" width="270.87" height="180" fill="#039"/>
+  <path id="a" transform="translate(-52 842.36)" d="m135 80 2.7489 6.7933 7.3254 0.21019-5.6114 4.7136 2.0638 7.0318-6.2169-3.8802-6.0499 4.1357 1.7691-7.1117-5.8028-4.4758 7.3103-0.5151z" fill="#fc0"/>
+  <use id="j" transform="translate(82,82)" width="270" height="180" xlink:href="#a"/>
+  <use id="i" transform="translate(-60,-104)" width="270" height="180" xlink:href="#j"/>
+  <use id="h" transform="translate(0,104)" width="270" height="180" xlink:href="#i"/>
+  <use id="g" transform="translate(60,-104)" width="270" height="180" xlink:href="#h"/>
+  <use id="f" transform="translate(-82,82)" width="270" height="180" xlink:href="#g"/>
+  <use id="e" transform="translate(104,-60)" width="270" height="180" xlink:href="#f"/>
+  <use id="d" transform="translate(8,30)" width="270" height="180" xlink:href="#e"/>
+  <use id="c" transform="translate(-120)" width="270" height="180" xlink:href="#d"/>
+  <use id="b" transform="translate(60,60)" width="270" height="180" xlink:href="#c"/>
+  <use transform="translate(0,-120)" width="270" height="180" xlink:href="#b"/>
+  <use transform="translate(104,60)" width="270" height="180" xlink:href="#a"/>
+ </g>
+</svg>

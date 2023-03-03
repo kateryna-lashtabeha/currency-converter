@@ -1,0 +1,20 @@
+.nonfound-wrapper {
+  min-height: 100vh;
+  padding: 15px;
+  text-align: center;
+  background: repeating-linear-gradient(45deg,
+      #a4a8c2,
+      #a4a8c2 40px,
+      #b7bddf 40px,
+      #6b74a9 100px);
+  img {
+    max-height: 50vh;
+    width: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+  }
+  p {
+    color: #020244;
+    font-size: 140%;
+  }
+}
